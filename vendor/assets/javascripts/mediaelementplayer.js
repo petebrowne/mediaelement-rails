@@ -14,7 +14,8 @@ if (typeof jQuery != 'undefined') {
 } else if (typeof ender != 'undefined') {
 	mejs.$ = ender;
 }
-﻿(function ($) {
+
+(function ($) {
 
 	// default player values
 	mejs.MepDefaults = {
